@@ -1,0 +1,93 @@
+footer {
+      padding: 20px;
+      color: rgba(255, 255, 255, 0.638);
+      background-color: rgba(18, 18, 18, 0.939);
+      border: 0;
+      margin-bottom:  0;
+
+}
+body{
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 0;
+      background-image: url(./images/digital-technology-banner-blue-background-ai-big-data-online-cyber-security-technology-abstract-privacy-hi-tech-binary-code-innovation-future-data-internet-network-connection-illustration-vector.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display:block;
+}
+.login-box {
+      width: 400px;
+      height: 450px;
+      display: inline-table;
+      background: #0a0000e0;
+      color: #f6f3f5a3;
+      margin-top: 60px;
+      box-sizing: border-box;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 15px 1px 29px rgb(1, 12, 1);
+}
+h1 {
+      margin: 0;
+      text-align: center;
+      color: #f8f3f3;
+      font-weight: bolder;
+      display: inline;
+}
+
+label {
+      font-size: 20px;
+      float: left;
+      color: #160202da;
+      font-weight:bolder;
+      
+}
+.yo {
+      background-color: rgba(0, 0, 0, 0.858);
+}
+
+input[type=text], input[type=password] {
+      width: 320px;
+      padding: 20px 12px;
+      margin-top: px;
+      border-radius: 6px;
+      color: #ffffff;
+      border: 7px;
+      background-color: #da0c50f1;
+}
+
+input[type=submit] {
+      width: 340px;
+      background-color:#b80db5f1;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 14px 19px;
+      border-radius: 5px;
+      border: 0px;
+      cursor: pointer;
+      margin-top: 20px;
+}
+input[type=submit]:hover {
+      background-color:#da0c50f1;
+}
+a {
+      text-decoration: none;
+      font-size: 18px;
+      line-height: 15px;
+      color: #2d1ab950;
+      margin-left: 10px;
+}
+.create_account {
+      text-align: center;
+      padding: 15px 82px;
+      border-radius: 8px;
+      background-color: rgba(37, 108, 34, 0.977);
+      color: #ffffff;
+}
+.create_account:hover {
+      background-color: rgb(31, 11, 188);
+}
+::placeholder {
+      font-size: 18px;
+      color: #ffffff;
+}

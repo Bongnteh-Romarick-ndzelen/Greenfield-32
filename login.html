@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body class="bg-info">
+    <section>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark fixed-top p-3 fs-8"
+        id="navbar1" style="background-color:rgb(4, 107, 107);"
+      >
+        <a class="navbar-brand font-weight-bold" href="#"></a>
+        <a class="navbar-brand font-weight-bold" id="logo" href="#">MBINGLO FC</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" style="color: aliceblue" id="nabarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" style="list-style-type: none; color:aliceblue;" href="#">Register</a>
+            </li>
+          </ul>
+        </div>
+      </nav><br><br><br><br>
+    </section>
+    <!--End of Navbar-->
+
+
+    <section>
+      <div class="container">
+        <div class="container col-lg-7 mt-5 p-4 card rounded-20 shadow" style="background-color:black;">
+          <center><h2 class="justify-content-center text-white">Login</h2></center>
+          <form class="card rounded-15" style="background-color:black;">
+            <div class="form-group">
+              <label for="email"></label>
+              <input
+                name="email"
+                type="email"
+                class="form-control text-center"
+                id="email"
+                placeholder="Enter Your Email Address"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="password"></label>
+              <input
+                
+                name="password"
+                type="password"
+                class="form-control text-center"
+                id="password"
+                placeholder="Enter Your Password"
+                required
+              />
+            </div>
+            <div class="form-group form-check justify-content-start">
+              <label for="checkbox"></label>
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+                required
+              />
+              <label class="form-check-label text-white" for="checkme"
+                >Remember me</label
+              >
+              <a class="d-inline-block text-white justify-content-end p-1 float-right" style="background-color:rgb(4, 37, 78); border-radius:5px;" href="#"> Forgot Password</a>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-success form-control my-2"
+              
+            >
+              Login
+            </button>
+            <div>
+            <a href="#" class="btn btn-block btn-warning my-3">Login with Google</a>
+          </div>
+          </form>
+        </div>
+      </div>
+      <div class="text-center mt-2 justify-content-center">
+        <p style="font-size: 1.2rem; font-family:sans-serif;">Don't yet have an account<a class="btn btn-danger m-3" href="">Register</a></p>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #320ac4da;
+    padding: 10px;
+    text-align: center;
+    color: #ffffffd0;
+}
+nav {
+    background-color: #0b0529;
+    border-bottom: 1px solid #ccccccbe;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav a {
+    color: #ffffffc2;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #6b7bc2cd;
+    padding: 9px;
+}
+#banner {
+    background-image: url('/images/chem.jpeg');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 rgb(238, 10, 188),1px -1px 0 #b91860, -1px 1px 0 #b91860, 1px 1px 0 #b91860;
+}
+#courses {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#courses h3 {
+    margin-bottom: 30px;
+}
+#courses ul {
+    list-style-type: none;
+}
+#courses li {
+    display: inline-block;
+    margin-right: 20px;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #3614c0e2;
+    color: #ffffffe4;
+}
